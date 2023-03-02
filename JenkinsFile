@@ -14,5 +14,11 @@ pipeline{
       }
     }
 
+     stage('Added Feature'){
+      steps{
+        echo 'Hello World'
+      }
+    }
+
   }
 }
